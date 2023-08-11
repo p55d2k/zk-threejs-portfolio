@@ -97,10 +97,6 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -217,27 +213,30 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/",
+    logo_link: "",
   },
   {
-    name: "Job IT",
+    name: "ZKFlix-Next",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A Netflix clone built with Next.js, Tailwind CSS, and the TMDB API. Users can browse popular movies and TV shows, search for titles, and view details such as ratings and descriptions.",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tailwindcss",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tmdb-api",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
     source_code_link: "https://github.com/",
+    logo_link: "https://zkflix-next.vercel.app/favicon.ico",
+    website_link: "https://zkflix-next.vercel.app/",
   },
   {
     name: "Trip Guide",
@@ -259,6 +258,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+    logo_link: "",
   },
 ];
 
