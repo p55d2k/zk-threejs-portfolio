@@ -43,7 +43,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus ipsam excepturi, rerum ad eos, doloremque modi facere ex dignissimos, optio dolorem odit adipisci consequatur cumque enim incidunt sapiente asperiores quibusdam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non cumque a laudantium rem enim architecto cum vitae sapiente. Pariatur deserunt, cumque quae deleniti unde numquam iusto minus ab nihil et! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus laudantium fuga odio nihil impedit. Nemo eius dolor quam incidunt sint, dolorum explicabo, eaque consequatur laborum aliquam esse nulla, eligendi quos.
+        I'm a software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
@@ -51,7 +51,7 @@ const About = () => {
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
-    </>
+    </> 
   )
 }
 
